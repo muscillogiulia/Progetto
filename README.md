@@ -3,7 +3,7 @@
 Benvenuti nel nostro simulatore di lotta! In questo gioco ci sono **2 Player** che si sfidano in un duello all'ultimo sangue, provalo per scoprire chi vincerà, qui sotto sono elencate le regole del gioco e come utilizzare i dadi al meglio, buona fortuna e che vinca il migliore.
 
 ## Regole del gioco:
-- Ogni giocatore sceglie il suo nome e la sua identità dursnte il duello (Guerriero, Mago o Ladro).
+- Ogni giocatore sceglie il suo nome e la sua identità durante il duello (Guerriero, Mago o Ladro).
 - Tutto si decide con un **dado da 20 facce (D20)** generato con `SecureRandom`.
 - Chi ha l'agilità più alta ha più probabilità di colpire per primo!
 
