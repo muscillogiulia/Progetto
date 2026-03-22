@@ -14,4 +14,4 @@ Benvenuti nel nostro simulatore di lotta! In questo gioco ci sono **2 Player** c
 
 **Chi vincerà? Scoprilo avviando il programma!**
 
-Di Muscillo Giulia e Saretta Sebaastiano :))
+Di Muscillo Giulia e Saretta Sebastiano :))
