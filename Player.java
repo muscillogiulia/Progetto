@@ -10,4 +10,8 @@ public class Player {
     public int agilita;
     public int difesa;
     public int arcano;
+
+    public String getStatusInfo() {
+        return " Eroe: " + nome + " (" + classe.toUpperCase() + ") | HP: " + hp;
+    }
 }
