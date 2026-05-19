@@ -3,7 +3,6 @@ import java.security.SecureRandom;
 
 public class Main {
 
-    // Il tuo metodo originale per il critico
     public static int calcolaCriticoSubito(int hpAttuale, boolean boss) {
         if (boss) return hpAttuale - 40;
         return hpAttuale - 30;
@@ -72,7 +71,7 @@ public class Main {
     public static void main(String[] args) {
         SecureRandom random = new SecureRandom();
 
-        // Finestre di input iniziali grafiche
+
         String nome = JOptionPane.showInputDialog(null, "Inserisci il tuo nome:", "Creazione Personaggio", JOptionPane.QUESTION_MESSAGE);
         if (nome == null || nome.trim().isEmpty()) nome = "Eroe";
 
@@ -125,7 +124,6 @@ public class Main {
             JOptionPane.showMessageDialog(null, msg, "Baule", JOptionPane.INFORMATION_MESSAGE);
         }
 
-        // Selezione del mondo tramite bottoni grafici nativi
         String[] opzioniMondo = {"1) Foresta Maledetta", "2) Caverne di Fuoco"};
         int sceltaMondo = JOptionPane.showOptionDialog(null, "Seleziona il mondo in cui vuoi giocare:", "Scelta Mondo",
                 JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE, null, opzioniMondo, opzioniMondo[0]);
@@ -135,7 +133,6 @@ public class Main {
         int hpNemico = 0, difNemico = 0, bonusDannoNemico = 0;
         int hpBoss = 0, difBoss = 0, bonusDannoBoss = 0;
 
-        // Corretti i refusi ortografici originali qui dentro
         if (sceltaMondo == 0) {
             JOptionPane.showMessageDialog(null, "Entri nella Foresta Maledetta infestata da ragni, intorno a te vedi solo ragnatele. Stai attento, i ragni sono rapidi e hanno un veleno letale.", "Lore Mondo", JOptionPane.INFORMATION_MESSAGE);
             nemico = "Ragno di Bosco Atro";
@@ -150,7 +147,7 @@ public class Main {
             hpBoss = 140; difBoss = 12; bonusDannoBoss = 7;
         }
 
-        // Il tuo ciclo originale delle 5 fasi, intatto
+        
         for (int i = 1; i <= 5; i++) {
             if (p1.hp <= 0) break;
 
